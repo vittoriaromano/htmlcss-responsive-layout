@@ -6,9 +6,45 @@
 }
 
 /* common */
+:root{
+    --first-color:
+}
+.main-nav .lista a{
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
 
 
 /* header */
+header .container{
+    background-color:#0084fd;
+    color: white;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+header .main-nav{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    header .main-nav{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+}
 
 
 /* main */
