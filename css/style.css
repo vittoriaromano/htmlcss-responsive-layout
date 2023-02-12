@@ -85,7 +85,8 @@ header .main-nav{
 
 /* main */
  
-#demo .col {
+#demo .col,
+#benefits .col{
     margin-bottom: 1.5625rem;
     padding: .625rem
 }
@@ -96,9 +97,9 @@ header .main-nav{
    
 }
 @media screen and (min-width: 768px){
-    .row{
+    /* .row{
         display: flex;
-    }
+    } */
     #demo .col {
         width: calc(100% / 3);
     }
@@ -158,9 +159,23 @@ header .main-nav{
     margin-right: 1.25rem;
 }
 
+#benefits{
+    background-color: #9792e4
+}
+#benefits .col-content{
+    background-color: white;
+    height: 6.25rem;
+    border-radius: 1.25rem;
+}
 
-
-
-
+@media screen and (min-width: 768px){
+    
+    #benefits .col {
+        width: calc(100% / 3);
+    }
+    #benefits .col-main {
+        width: calc((100% / 3) * 2);
+    }
+}
 
 /* footer */
