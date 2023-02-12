@@ -168,14 +168,30 @@ header .main-nav{
     border-radius: 1.25rem;
 }
 
+
 @media screen and (min-width: 768px){
     
     #benefits .col {
         width: calc(100% / 3);
     }
-    #benefits .col-main {
-        width: calc((100% / 3) * 2);
+    
+}
+#about .col-one{
+    width: 80%;
+}
+#about .col-two{
+    width: 20%;
+}
+#about img{
+    width: 1.875rem;
+}
+
+@media screen and (min-width: 768px){
+    
+    #about .col {
+        width: calc(100% / 2);
     }
+  
 }
 
 /* footer */
